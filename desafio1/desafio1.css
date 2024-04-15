@@ -14,10 +14,14 @@ body{
     width: 100vw;
     background-color: white;
 }
-h1, h2, h3, h4, h5, h6{
+h1{
     font-family: var(--font2);
-    font-size: 2em;
+    font-size: 3em;
     text-transform: uppercase;
+}
+h2, h3, h4, h5, h6{
+    font-family: var(--font2);
+      text-transform: uppercase;
 }
 p{
     font-family: var(--font1);
@@ -58,9 +62,9 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 800px;
+    align-items: center;
     text-align: center;
-    margin: auto;
+    margin: 25px;
 }
 .img_logo_article{
     margin: 30px 0px;
@@ -69,4 +73,40 @@ main{
     padding: 5px;
     line-height: 1.5em;
 }
+/*pagina*/
+.pagina{
+    width: 70vw;
+    background-color: #064635;
+    border-radius: 2px;
+    color: rgb(249, 229, 213);
+    text-align: center;
+    padding:2rem;
+}
+.foto_bolo{
+    margin: 2rem;
+    border: 2px solid #EA5C2B;
+    border-radius: 4px;
+}
+.ingredientes{
+    text-align: left;
+    padding: 3rem;
+}
+.lista_ingredientes{
+    margin: 20px 80px;
+}
+.pagina>h2{
+    color: #EA5C2B;   
+}
+.preparo{
+    margin: 1rem;
+    width: 600px;
+    text-align: center;
+}
+.modos_de_preparo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto_
 /*configurações footer*/
